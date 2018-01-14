@@ -1,0 +1,63 @@
+.rolagem {
+  position: relative;
+  width: 1px;
+  height: 5000px;
+}
+
+.moldura {
+  width: 1080px;
+  height: 720px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  background-image: url("Leonia.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top:0px;
+  position: absolute;
+  width: 1080px;
+  height: 720px;
+}
+
+.estrelas1 {
+  background-image: url("estrelas1.png");
+  background-repeat: repeat;
+  position: absolute;
+    top:0px;
+  width: 100%;
+  height: 100%;
+}
+
+.estrelas2 {
+  background-image: url("estrelas2.png");
+  background-repeat:repeat;
+  position: absolute;
+    top:0px;
+  width: 1080px;
+  height: 720px;
+}
+
+.estrelas3 {
+  background-image: url("estrelas4.png");
+  background-repeat:repeat;
+  position: absolute;
+    top:0px;
+  width: 1080px;
+  height: 720px;
+}
+
+.estrelas4 {
+  background-image: url("estrelas4.png");
+  background-repeat:repeat;
+  position: absolute;
+    top:0px;
+  width: 1080px;
+  height: 720px;
+}
