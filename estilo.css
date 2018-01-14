@@ -1,7 +1,7 @@
 .rolagem {
   position: relative;
   width: 1px;
-  height: 5000px;
+  height: 7000px;
 }
 
 .moldura {
@@ -14,6 +14,60 @@
   right: 0;
   margin: auto;
   overflow: hidden;
+}
+
+.maozinha {
+  background-image: url("maozinha.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 1080px;
+  height: 720px;
+}
+
+.transicao1 {
+  background-image: url("transicao1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 500px;
+  width: 1080px;
+  height: 720px;
+}
+
+.cadeira1 {
+  background-image: url("cadeira1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -800;
+  width: 400px;
+  height: 600px;
+
+}
+
+.cadeira2 {
+  background-image: url("cadeira2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 100px;
+  width: 400px;
+  height: 600px;
+
+}
+
+.cadeira3 {
+  background-image: url("cadeira3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 100px;
+  width: 400px;
+  height: 600px;
+  z-index: -800;
 }
 
 .titulo {
@@ -33,6 +87,7 @@
     top:0px;
   width: 100%;
   height: 100%;
+    z-index: -1000;
 }
 
 .estrelas2 {
@@ -42,6 +97,7 @@
     top:0px;
   width: 1080px;
   height: 720px;
+  z-index: -1000;
 }
 
 .estrelas3 {
@@ -51,6 +107,7 @@
     top:0px;
   width: 1080px;
   height: 720px;
+  z-index: -1000;
 }
 
 .estrelas4 {
@@ -60,4 +117,162 @@
     top:0px;
   width: 1080px;
   height: 720px;
+  z-index: -1000;
+}
+
+.sabonete {
+  background-image: url("sabonete.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  top: 250px;
+  left: 350px;
+  z-index: -1;
+
+}
+.caixa {
+  background-image: url("caixa.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 250px;
+  left: 350px;
+
+}
+
+.texto1 {
+  background-image: url("texto1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 900px;
+  height: 720px;
+  top: 0px;
+  right: 100px;
+}
+
+.texto2 {
+  background-image: url("texto2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 900px;
+  height: 720px;
+  top: 0px;
+  right: 100px;
+}
+
+.texto3 {
+  background-image: url("texto3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 900px;
+  height: 720px;
+  top: 50px;
+  right: 100px;
+  z-index: -30;
+}
+
+.texto4 {
+  background-image: url("texto4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 900px;
+  height: 720px;
+  right: 100px;
+
+}
+
+.texto5 {
+  background-image: url("texto5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 900px;
+  height: 720px;
+  right: 100px;
+
+}
+
+.casas {
+  background-image: url("casas.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 1080px;
+  height: 720px;
+  top: 600px;
+  z-index: -20;
+}
+
+.lixeiro {
+  background-image: url("Lixeiro.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 1080px;
+  height: 104px;
+  top: 600px;
+  z-index: -1;
+}
+
+.lixo {
+  background-image: url("lixo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 1080px;
+  height: 720px;
+  top: 600px;
+  left: 15px;
+}
+
+.lixeiro {
+  background-image: url("Lixeiro.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 1080px;
+  height: 104px;
+  top: 600px;
+  left: 15px;
+}
+
+
+.lixo3 {
+background-image: url("lixo3.png");
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+width: 1080px;
+height: 720px;
+top: 700px;
+z-index: -2;
+}
+
+.lixo2 {
+background-image: url("lixo2.png");
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+width: 1080px;
+height: 720px;
+top: 700px;
+z-index: -1;
+}
+
+.lixo1 {
+background-image: url("lixo1.png");
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+width: 1080px;
+height: 720px;
+top: 0px;
 }
